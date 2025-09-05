@@ -1,100 +1,129 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>le club des pros</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Le Club des Pros</title>
 </head>
 <body>
-    <header>
-        <h1 class="titre">Le Club des Pros</h1>
-    </header>
-    <section class="welcome">
-        <img src="images-bproo-club/profile.png" alt="image de profil">
-        <h2>salut les pros,<span>Bproo dev</span> votre agence de creation numerique</h2>
-    </section>
-    <nav>
-        <ul>
-            <li><a href="">A propos</a></li>
-            <li><a href="">Experience</a></li>
-            <li><a href="">Nos services</a></li>
-            <li><a href="">Contact</a></li>
-        </ul>
-    </nav>
+  <!-- Début de l'entête -->
+  <header>
+    <h1 class="titre">Le Club des Pros</h1>
+  </header>
+  <!-- Fin de l'entête -->
 
-<main class="main-content">
+  <!-- Section bienvenue -->
+  <section class="welcome">
+    <img src="images-bproo-club/profile.png" alt="image de profil">
+    <h2>
+      Salut les pros,<br>
+      <span>Bproo dev</span> votre agence de <br> création numérique
+    </h2>
+  </section>
+
+  <!-- Barre de navigation -->
+  <nav>
+    <ul>
+      <li><a href="">A propos</a></li>
+      <li><a href="">Expérience</a></li>
+      <li><a href="">Nos services</a></li>
+      <li><a href="">Contact</a></li>
+    </ul>
+  </nav>
+  <!-- Fin de la barre de navigation -->
+
+  <!-- Début des contenus -->
+  <main class="main-content">
+
+    <!-- Section : À propos -->
     <section class="section">
-        <h2>A propos de nous</h2>
-        <p>Bproo dev est l'une des meilleurs agence de creation digitale</p>
+      <h2>A propos de nous</h2>
+      <p>
+        Bproo Dev est l’une des meilleures agences de création digitale, 
+        offrant des services de conception de sites web, d’applications mobiles, 
+        de design graphique et de stratégie digitale pour accompagner les entreprises 
+        dans leur transformation numérique.
+      </p>
     </section>
 
+    <!-- Section : Expérience -->
     <section class="section">
-        <h2>Experience de travail</h2>
-        <ul class="image">
-            <li class="image">
-                <img src="images-bproo-club/bproo.com.png" alt="Bproo.com">
-            </li>
-            <li class="image">
-                <img src="images-bproo-club/bproo.fr.png" alt="Bproo.fr">
-            </li>
-        </ul>
+      <h2>Expérience de travail</h2>
+      <ul class="image">
+        <li><img src="images-bproo-club/bproo.com.png" alt="Bproo.com"></li>
+        <li><img src="images-bproo-club/bproo.fr.png" alt="Bproo.fr"></li>
+      </ul>
     </section>
-    <section class="section">
-        <h2>Nos Services</h2>
-        <div class="services">
-            <div class="service">
-                <div class="service-title">
-                    <img src="images-bproo-club/cloud-computing.svg" alt="cloud computing">
-                    <h3>Developpement web</h3>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
-            </div>
 
-            <div class="service">
-                <div class="service-title">
-                    <img src="images-bproo-club/presentation.svg" alt="presentation">
-                    <h3>Formation web</h3>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+    <!-- Section : Services -->
+    <section class="section">
+      <h2>Nos Services</h2>
+      <div class="services">
+
+        <div class="row">
+          <div class="service">
+            <div class="service-title">
+              <img src="images-bproo-club/cloud-computing.svg" alt="Cloud computing">
+              <h3>Développement web</h3>
             </div>
-            <div class="service">
-                <div class="service-title">
-                    <img src="images-bproo-club/seo.svg" alt="search engine optimization">
-                    <h3>Developpement web</h3>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
+            <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing</p>
+          </div>
+
+          <div class="service">
+            <div class="service-title">
+              <img src="images-bproo-club/presentation.svg" alt="Formation">
+              <h3>Formation web</h3>
             </div>
-            <div class="service">
-                <div class="service-title">
-                    <img src="images-bproo-club/settings.svg" alt="Devops">
-                    <h3>Devops</h3>
-                </div>
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing</p>
-            </div>
+            <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing</p>
+          </div>
         </div>
-    </section>
 
-    <section class="section">
-        <img src="images-bproo-club/office.jpg" alt="office">
+        <div class="row">
+          <div class="service">
+            <div class="service-title">
+              <img src="images-bproo-club/seo.svg" alt="SEO">
+              <h3>Référencement SEO</h3>
+            </div>
+            <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing</p>
+          </div>
 
-        <div class="form">
-            <h2>Nous Contacter</h2>
-            <form>
-            <div class="watsapp">+224620157184</div>
-            <input type="text" nom="nom" placeholder="nom">
-            <input type="email" nom="email" placeholder="email">
-            <textarea name="message" id="" rows="5"></textarea>
-            <input type="submit" value="Envoyer votre message">
-        </form>
+          <div class="service">
+            <div class="service-title">
+              <img src="images-bproo-club/settings.svg" alt="DevOps">
+              <h3>DevOps</h3>
+            </div>
+            <p>Lorem ipsum, dolor sit amet <br>consectetur adipisicing</p>
+          </div>
         </div>
+
+      </div>
     </section>
-</main>
 
-<footer>
-    Tous droits reservés <a href="">Bproo dev</a> &copy; 2021
-</footer>
-
+    <!-- Section : Contact -->
+    <!-- Section : Contact -->
+<section class="section contact">
+  <div class="form">
+    <h2>Nous Contacter</h2>
+    <form>
+      <div class="watsapp">+224620157184</div>
+      <input type="text" name="nom" placeholder="Nom">
+      <input type="email" name="email" placeholder="Email">
+      <textarea name="message" rows="5" placeholder="Votre message..."></textarea>
+      <input type="submit" value="Envoyer votre message">   
+    </form>
+  </div> 
 </section>
+
+
+  </main>
+  <!-- Fin des contenus -->
+
+  <!-- Début du pied de page -->
+  <footer>
+    Tous droits réservés <a href="">Bproo dev</a> &copy; 2021
+  </footer>
+  <!-- Fin du pied de page -->
+
 </body>
 </html>
